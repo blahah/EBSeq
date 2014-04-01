@@ -1,0 +1,8 @@
+2014/1/30: In EBSeq 1.3.3, the default setting of EBTest function will remove 
+low expressed genes (genes whose 75th quantile of normalized counts is less 
+than 10) before identifying DE genes. 
+These two thresholds can be changed in EBTest function.
+We found that low expressed genes are more easily to be affected by noises. 
+Removing these genes prior to downstream analyses can improve the 
+model fitting and reduce impacts of noisy genes (e.g. genes with outliers).
+
