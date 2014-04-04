@@ -5,7 +5,7 @@ Clone of EBSeq from [bioconductor](http://www.bioconductor.org/packages/devel/bi
 
 ## Experimental features
 
-1. Allow hyperparameters (`alpha`, `beta` and `P`) to be fixed, rather than optimised by maximum likelihood with expectation maximisation. This drastically reduces runtime for complex experiments (e.g for 6 conditions * 3 samples, runtime reduces from 3 days to 35 seconds).
+1. Allow hyperparameters (`alpha`, `beta` and `P`) to be fixed, rather than optimised by maximum likelihood with expectation maximisation. This drastically reduces runtime for complex experiments (e.g for 6 conditions \* 3 samples, runtime reduces from 3 days to 35 seconds). **BEWARE**: there may be a corresponding decrease in the accuracy of the fitted model.
 
 ## Credits
 
